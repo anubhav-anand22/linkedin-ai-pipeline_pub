@@ -25,7 +25,7 @@ ollama serve
 ### Install and build
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/anubhav-anand22/linkedin-ai-pipeline_pub.git
 cd linkdin-pipeline
 npm install
 npm run build
