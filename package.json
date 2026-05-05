@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-post-pipeline",
+  "version": "1.0.0",
+  "description": "CLI pipeline for generating LinkedIn posts using a local Ollama LLM",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --no-warnings dist/index.js",
+    "dev": "tsc && node --no-warnings dist/index.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
